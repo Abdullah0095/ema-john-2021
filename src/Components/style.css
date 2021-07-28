@@ -22,7 +22,40 @@
 }
 #header nav a:hover{
     background-color: gray;
-    color: black;
+    color: black;   
+}
+
+/* shop-design */
+.shop-container{
+    display: flex;
+}
+
+.button{
+    background-color: orangered;
+    border: orangered;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    margin-top: 5px;
+}
+
+.cart-container{
     
-    
+    margin-left: 50px;
+}
+.products-container{
+    margin-left: 20px;
+    margin-right: 5px;
+    border-right: 1px solid lightgray;
+    width: 80%;
+    margin-left: 90px;
+}
+
+/* product-container */
+.product-container{
+    display: flex;
+
+}
+.product-details{
+    margin-left: 2%;
 }
